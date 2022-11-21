@@ -79,8 +79,6 @@ template <class type>
 concept bounded_array_c                       = is_bounded_array_v                   <type>;
 template <class type>
 concept unbounded_array_c                     = is_unbounded_array_v                 <type>;
-template <class type>
-concept scoped_enum_c                         = is_scoped_enum_v                     <type>;
 template <class type, class... arguments>
 concept constructible_c                       = is_constructible_v                   <type, arguments...>;
 template <class type>
