@@ -1,5 +1,5 @@
 ### Type Traits Concepts
-Reference implementation of the proposal "Concept equivalents of boolean type traits". Try it out on [Godbolt](https://godbolt.org/z/3PqPYvh73).
+Reference implementation of the proposal "Concept equivalents of boolean type traits". Try it out on [Godbolt](https://godbolt.org/z/KjY8aevGh).
 
 ### Example Usage
 ```cpp
