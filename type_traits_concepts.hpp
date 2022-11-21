@@ -155,12 +155,10 @@ template <class from, class to>
 concept convertible_c                         = is_convertible_v                     <from, to>;
 template <class from, class to>
 concept nothrow_convertible_c                 = is_nothrow_convertible_v             <from, to>;
-#if __cplusplus > 202002L
 template <class type, class other>
 concept layout_compatible_c                   = is_layout_compatible_v               <type, other>;
 template <class base, class derived>
 concept pointer_interconvertible_base_of_c    = is_pointer_interconvertible_base_of_v<base, derived>;
-#endif
 template <class type, class... arguments>
 concept invocable_c                           = is_invocable_v                       <   type, arguments...>;
 template <class r, class type, class... arguments>
