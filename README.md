@@ -3,7 +3,7 @@ Reference implementation of the proposal "Concept equivalents of Boolean type tr
 
 ### Example Usage
 ```cpp
-#include "type_traits_concepts.hpp"
+#include "type_trait_concepts.hpp"
 
 template <std::experimental::integral_c type>
 bool is_even(const type& input)
