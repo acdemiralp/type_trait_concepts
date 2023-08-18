@@ -8,7 +8,7 @@ TODO
 ```cpp
 #include <std/experimental/type_trait_concepts.hpp>
 
-using std::experimental;
+using namespace std::experimental;
 
 template <integral_c type>
 bool is_even(const type& input)
@@ -38,4 +38,4 @@ And then point the `type_trait_concepts_DIR` to the build or installation direct
 Alternatively, you can just copy [include/std/experimental/type_trait_concepts.hpp](type_traits_concepts.hpp) to your project.
 
 ## Testing it online
-Check it out on [Godbolt](https://godbolt.org/z/njT4rhnfa).
+Check it out on [Godbolt](https://godbolt.org/z/fcYoMEaG9).
