@@ -1,4 +1,4 @@
-# Type trait concepts
+# Type Trait Concepts
 Concept equivalents of `<type_traits>`.
 
 ## Motivation and proposal
@@ -27,7 +27,7 @@ int main(int argc, char** argv)
 }
 ```
 
-## Using it:
+## Using
 The cmake project exports the `std::experimental::type_trait_concepts` target, hence you can:
 ```cmake
 find_package         (type_trait_concepts CONFIG REQUIRED)
@@ -37,5 +37,5 @@ And then point the `type_trait_concepts_DIR` to the build or installation direct
 
 Alternatively, you can just copy [type_traits_concepts.hpp](include/std/experimental/type_trait_concepts.hpp) to your project.
 
-## Testing it online:
+## Testing online
 Check the latest version on [Godbolt](https://godbolt.org/z/fcYoMEaG9).
