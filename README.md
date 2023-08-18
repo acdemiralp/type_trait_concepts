@@ -1,7 +1,7 @@
-# type_trait_concepts
+# Type trait concepts
 Concept equivalents of `<type_traits>`.
 
-## Motivation and Proposal
+## Motivation and proposal
 TODO
 
 ## Example: Constrain an operation involving % to integral types.
@@ -27,7 +27,7 @@ int main(int argc, char** argv)
 }
 ```
 
-## Using it
+## Using it:
 The cmake project exports the `std::experimental::type_trait_concepts` target, hence you can:
 ```cmake
 find_package         (type_trait_concepts CONFIG REQUIRED)
@@ -37,5 +37,5 @@ And then point the `type_trait_concepts_DIR` to the build or installation direct
 
 Alternatively, you can just copy [type_traits_concepts.hpp](include/std/experimental/type_trait_concepts.hpp) to your project.
 
-## Testing it online
-Check it out on [Godbolt](https://godbolt.org/z/fcYoMEaG9).
+## Testing it online:
+Check the latest version on [Godbolt](https://godbolt.org/z/fcYoMEaG9).
